@@ -41,14 +41,6 @@ site:
   template: book-theme
   title: TENDL
   options:
-    # hide_footer_links : true
-    # hide_outline : true
     logo_text : " "
-    # hide_toc: true
-    # hide_toc: true
-  # style: custom.css
-  # Remove or override the default footer text
-    use_footer: false
-    enable_footer: false
   #   favicon: favicon.ico
   #   logo: site_logo.png
