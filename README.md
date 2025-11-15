@@ -4,7 +4,7 @@ For this proof of concept I have just uploaded the TENDL 2025 Application Librar
 
 You can naviage to the webpage from the homepage or go directly to that application library page
 
-- [https://tendl-nuclear-data.github.io](https://tendl-nuclear-data.github.io)
+- [https://tendl-nuclear-data.github.io/website/](https://tendl-nuclear-data.github.io/website/)
 - [https://tendl-nuclear-data.github.io/website/application-libraries/](https://tendl-nuclear-data.github.io/website/application-libraries/)
 
 I should also mention GitHub pages accepts custom domains (e.g https://openmc.org/ is done with GitHub pages)
