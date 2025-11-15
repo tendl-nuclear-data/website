@@ -1,0 +1,54 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 0cdcef0d-67d1-49a6-8d14-7e2e42177b95
+  title: TENDL
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/tendl-nuclear-data/website
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - file: index.md
+    - file: 2025/index.md
+      children:
+        - file: 2025/application-libraries.md
+        - file: 2025/total-monte-carlo-files.md
+    - file: 2023/index.md
+      children:
+        - file: 2023/application-libraries.md
+        - file: 2023/total-monte-carlo-files.md
+    - file: 2021/index.md
+      children:
+        - file: 2021/application-libraries.md
+        - file: 2021/total-monte-carlo-files.md
+    - file: 2019/index.md
+      children:
+        - file: 2019/application-libraries.md
+        - file: 2019/total-monte-carlo-files.md
+    - file: 2017/index.md
+      children:
+        - file: 2017/application-libraries.md
+        - file: 2017/total-monte-carlo-files.md
+    - file: 2015/index.md
+      children:
+        - file: 2015/application-libraries.md
+        - file: 2015/total-monte-carlo-files.md
+    - file: reference.md
+    - file: developers.md
+    
+site:
+  template: book-theme
+  title: TENDL
+  options:
+    # hide_footer_links : true
+    # hide_outline : true
+    logo_text : " "
+    # hide_toc: true
+    # hide_toc: true
+  # style: custom.css
+  # Remove or override the default footer text
+    use_footer: false
+    enable_footer: false
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
